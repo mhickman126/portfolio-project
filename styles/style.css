@@ -120,6 +120,8 @@ p {
     max-height: 41.82px;
 }
 
+
+
 nav {
     padding: 20px;
 }
@@ -148,6 +150,8 @@ nav li.active a {
     color: var(--branding-color);
 }
 
+
+
 footer {
     margin: 60px 0;
 }
@@ -163,14 +167,18 @@ footer .contact-box {
 
 }
 
-footer .email-link {
+footer .email-link{
     text-decoration: none;
     color: black;
     font-size: 24px;
     text-align: center;
 }
 
-footer .email-link:hover {
+footer .repository-link {
+    color: #272142B2;
+}
+
+footer .email-link:hover, .repository-link:hover {
     color: var(--branding-color);
 
 }
